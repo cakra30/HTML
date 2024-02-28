@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakra Budiman Putra - 1301213273</title>
+</head>
+<body>
+    <h1>Tugas Praktikum Aplikasi Berbasis Platform Modul 1(HTML)</h1>
+    <h2>Cakra Budiman Putra - 1301213273</h2>
+
+    <br/>
+    <p>Tugas ini untuk melengkapi tugas praktikum AplikasiBerbasis data modul 1 yaitu tentang HTML</p>
+   
+    <ul>
+        <li>
+            <h2>Heading</h2>
+            <p>
+                Heading pada HTML merupakan tag yang berguna untuk menampilkan judul dari konten laman web yang dibangun dan memiliki ukuran yang
+                 berbeda-beda dari heading 1-heading 6. Contoh sebagai berikut :
+            </p>
+              <h1>Title 1</h1>
+              <h2>Title 2</h2>
+              <h3>Title 3</h3>
+              <h4>Title 4</h4>
+              <h5>Title 5</h5>
+              <h6>Title 6</h6>
+        </li>
+
+        <li>
+            <h2>Paragraf</h2>
+            <p> Ini untuk membuat suatu paragraf</p>
+            <p>Dapat juga digabung sepertiini</p><p>Dengan ini tetapi tetap berada pada line yang berbeda</p>
+        </li>
+
+        <li>
+            <h2>Font Styling</h2>
+            <p>Untuk style fon dapat menggunakan <b>Bold</b> ataupun <i>Italic</i>
+            ataupun <u>Underline</u> atau <b><u><i>Dapat digabungkan sekaligus seperti ini</i></u></b></p>
+        </li>
+
+        <li>
+            <h2>Line Break</h2>
+            <p>ini dapat digunakan untuk memisahkan baris pada teks seperti <br />Ini </p>
+            <p>Selain itu dapat digunakan ketika membuat paragraf baru</p>
+        </li>
+
+        <li>
+            <h2>List</h2>
+            <ul>
+                Untuk tipe bullet dapat digunakan seperti 
+                <li>Ini</li>
+                <li>Dan</li>
+                <li>ini</li>
+                Sedangkan untuk tipe penomoran dapat digunakan seperti ini
+                <ol>
+                    <li>Satu</li>
+                    <li>Dua</li>
+                </ol>
+
+            </ul>
+        </li>
+
+        <li>
+            <h2>Horizontal line</h2>
+            <p>Untuk horizontal line dapat digunakan seperti <hr />
+            Ini
+            </p>
+        </li>
+
+        <li>
+            <h2>Image</h2>
+            <p>Untuk memasukkan image adalah sebagai berikut</p>
+            <img 
+            src="https://media.licdn.com/dms/image/D5603AQHPbyqHPwKvGw/profile-displayphoto-shrink_400_400/0/1709086574383?e=1714608000&v=beta&t=oKS36y_04gD1qB5NFto8PrXh75T8AyK3586JGQv0yJk" 
+            alt="dHil"
+            width="8%"
+            >
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><img 
+                src="https://i.pinimg.com/564x/c5/58/ee/c558eefb072496ff6d8f668c22038d64.jpg" 
+                alt="Lope"
+                width="5%"
+                >
+            </a>
+
+            <img 
+            src="https://media.licdn.com/dms/image/D4E03AQFxD5-V7e7zrg/profile-displayphoto-shrink_400_400/0/1709085572839?e=1714608000&v=beta&t=DzWXZIHg4gQjQ78z1QYVqEVlBD81xzncvVswnyzO1NA"
+            alt="King of the North"
+            width="8%"
+            >
+            
+        </li>
+        
+
+
+        <li>
+            <h2>Hyperlink</h2>
+            <p>
+            Hyperlink dalam HTML memungkinkan halaman web berpindah laman atau
+            bernavigasi menuju laman web yang lain. Contoh sebagai berikut :
+            </p>
+            <a href="https://www.youtube.com/watch?v=Ms4EL8FI1OQ"
+            >Lagu kebangsaan masyarakat Telkom University</a>
+        </li>
+
+        <li>
+            <h2>Table</h2>
+            <p>
+                Contoh berikut adalah tabel: Tabel adalah komponen HTML yang sangat penting untuk menampilkan data yang membutuhkan bentuk tabel.
+            </p>
+            <table border="2">
+                <tr>
+                    <th>aaa</th>
+                    <th>bbb</th>
+                    <th>ccc</th>
+                </tr>
+                <tr>
+                    <td>ddd</td>
+                    <td>eee</td>
+                    <td>fff</td>
+                </tr>
+            </table>
+            <h3>Exercise ppt</h3>
+            <table border="1">
+                <tr>
+                    <th rowspan="2">Nama Lengkap</th>
+                    <th colspan="2">Gelar Pendidikan</th>
+                    <th rowspan="2">Age</th>
+                </tr>
+                <tr>
+                    <th>Sarjana</th>
+                    <th>Magister</th>
+                </tr>
+                <tr>
+                    <td>Budi</td>
+                    <td>S.Kom</td>
+                    <td>M.Sc</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Andi</td>
+                    <td>S.SiKom</td>
+                    <td>M.T</td>
+                    <td>52</td>
+                </tr>
+            </table>
+        </li>
+
+        <li>
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="https://www.computerhope.com/jargon/m/example.mp3" type="audio/mpeg">
+            </audio>
+        </li>
+
+        <li>
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=bOf5NUNK4q63Iwml" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </li>
+ 
+        <li>
+            <h2>Form</h2>
+            <p>Pada form yang harus diisi adalah sebagai berikut </p>
+            <p>contoh pada modul</p>
+            <h1>Formulir Pendaftaran Praktikan</h1>
+            <form action="" method="POST">
+                <table border="0" width="120">
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td width="900">
+                            <input type="text" name="nama_input" class="text-field" id="nama_id" placeholder="Input Nama"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="uname_input" class="text-field" id="uname_id" placeholder="Input Username" value="Mahasiswa" disabled/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td>
+                            <input type="password" name="password_input" class="text-field" id="password_id" placeholder="Input Password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>
+                            <input type="email" name="email_input" class="text-field" id="email_id" placeholder="Input Email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>
+                            <input type="radio" name="gender_input" class="radioB" id="radioB" value="Pria">Pria</input><br>
+                            <input type="radio" name="gender_input" class="radioB" id="radioB" value="Wanita">Wanita</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>:</td>
+                        <td>
+                            <input type="checkbox" name="hobi_input" class="checkBox" id="checkB_id" value="Mobile Legend">Mobile Legend</input><br/>
+                            <input type="checkbox" name="hobi_input" class="checkBox" id="checkB_id" value="PUBG">Pubg Mobile</input><br/>
+                            <input type="checkbox" name="hobi_input" class="checkBox" id="checkB_id" value="Valorant">Valorant</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenjang Pendidikan</td>
+                        <td>:</td>
+                        <td>
+                            <select name="jp_input" class="dropdown" id="jp_id">
+                                <option value="" selected>------Pilih------</option>
+                                <option value="SD">SD</option>
+                                <option value="SMP">SMP</option>
+                                <option value="SMA">SMA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal</td>
+                        <td>:</td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kritik & Saran</td>
+                        <td>:</td>
+                        <td>
+                            <textarea rows="5" cols="40%"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right">
+                            <button type="Button" name="btnCnc" class="btnCancel" id="id_btncnc">Cancel</button>
+                            <input type="Submit" name="btnSub" class="btnSubmit" id="id_btnsub" value="Submit"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </li>
+    </ul>
+</body>
+</html>
